@@ -1,0 +1,81 @@
+body {
+	margin: auto;
+	padding: 10px;
+	background-image: url("http://cdn.pcwallart.com/images/light-yellow-wallpaper-3.jpg");
+	background-color: yellow;
+}
+
+header {
+	text-align: center;
+	font-family: "Goldsmith";
+}
+	
+footer {
+	text-align: center;
+}	
+
+a, btn {
+	margin: 10px;
+}	
+
+.table {
+	background-color: lightblue;
+}
+
+@font-face {
+    font-family: "Goldsmith";
+    src: url("../fonts/The Goldsmith_Vintage.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Barn";
+    src: url("../fonts/barn.otf") format("opentype");
+}
+
+section h3 {
+	font-family: "Goldsmith";
+}
+
+article h3 {
+	font-family: "Goldsmith";
+}
+
+aside h3 {
+	font-family: "Goldsmith";
+}
+
+#emailTitle {
+	font-family: "Goldsmith";
+}
+
+#tableTitle {
+	font-family: "Goldsmith";
+}
+
+footer {
+	font-family: "barn";
+	font-size: large;
+}
+
+#breadC {
+	background-color: lightblue;
+}
+
+#pagiN {
+	background-color: lightblue;
+	padding-left: 10px;
+}
+
+.hero-unit h1 {
+	font-family: "Goldsmith";
+}
+
+#carousel {
+	text-align: center;
+	font-family: "Goldsmith";
+}
+
+.carousel-inner  .item  img {
+    margin: 0 auto;
+ }
+
