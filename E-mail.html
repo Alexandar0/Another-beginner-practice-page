@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link type="text/css" rel="stylesheet" href="./styles/Style.css" />
+   <link rel="stylesheet" href="./styles/bootstrap.css" />
+   <link rel="stylesheet" href="./styles/bootstrap-theme.css" />
+   <title>Email Validacija</title>
+   <link rel="Stylesheet" type="text/css" />
+   
+   <style>
+      
+      input:valid + .invalid {
+         visibility: hidden;
+      }
+
+      input:valid {
+         border: 2px solid #ccc;
+      }
+
+      input:invalid + .invalid {
+         visibility: visible;
+      }
+
+      input:required {
+         border: 2px solid #900;
+      }
+
+      .invalid {
+         margin-top:0px;
+         margin-bottom:4px;
+         font-size:0.8em;
+         color: #666;
+      }
+
+   </style>
+</head>
+
+<body>
+   <article>
+   <h1 id="emailTitle">Format<span> - validacija na email adresa</span></h1>
+   </article>
+
+   <div>
+   <form>
+      <fieldset>
+
+      <h3 id="emailTitle">Vnesi E-mail Adresa</h3>
+
+      <input type="text"
+                 id="username" name="username"
+                 pattern="[a-zA-Z ]{5,}"
+                 placeholder="Username"
+                 maxlenght="30" required />
+      <div class="invalid">
+         The required user name may only be a series
+          of alphabetical characters.
+      </div>
+
+      <input type="email"
+                 id="email" name="email"
+                 placeholder="Email" required />
+      <div class="invalid">
+         The required email address may not include any special
+         characters other then the '@' sign.
+      </div>   
+
+      <button class="btn btn-primary" type="submit"
+                   id="submit" name="submit" class="btn">Proveri</button>
+      </fieldset>
+   </form>
+   </div> 
+</body>
+<footer>By Ace</footer> 
+</html>

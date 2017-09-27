@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf=-8" />
+	  <link type="text/css" rel="stylesheet" href="./styles/Style.css" />
+	  <link rel="stylesheet" href="./styles/bootstrap.css" />
+	  <link rel="stylesheet" href="./styles/bootstrap-theme.css" />
+	  <link rel="stylesheet" href="./styles/Podatoci.css" />
+	  <script src="./scripts/Podatoci.js"></script>
+	  <title>Vnes na Podatoci</title>
+	  
+   </head>
+   <body>
+     <section>
+	     <form>
+		     <label for="key">Ime: </label><br />
+			 <input type="text" id="key" name="key" /><br/>
+			 <label for="value">Profesija: </label><br />
+			 <textarea name="value" id="value"></textarea><br />
+			 <input class="btn btn-primary" type="button" id="save" value="Save" />
+			 <input class="btn btn-primary" type="button" id="retrieve" value="Retrieve" />
+			 <input class="btn btn-primary" type="button" id="delete" value="Delete" />
+		 </form>
+	 </section>
+	 <section id="data">
+	     Nema podatoci
+	 </section>
+   </body>
+</html>   

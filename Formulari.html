@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+	  <link type="text/css" rel="stylesheet" href="./styles/Style.css" />
+	  <link rel="stylesheet" href="./styles/bootstrap.css" />
+	  <link rel="stylesheet" href="./styles/bootstrap-theme.css" />
+      <link type="text/css" rel="stylesheet" />
+      <title>Formulari</title>
+	  
+	  <style>
+	     input {
+		    margin: 10px;
+			border: 2px solid #900;
+		 }
+	  </style>
+	  
+   </head>
+   <body>
+      <label for="date-input">Odberi datum: </label>
+	  <input type="date" id="date-input" />
+	  <label for="time-input">Odberi vreme: </label>
+	  <input type="time" id="time-input" />
+	  <label for="range-data">Opseg: </label>
+	  <input type="range" id="range-data" min="1" max="10" /> <br />
+	  <label for="tel-data">Vnesi telefon: </label>
+	  <input type="tel" id="tel-data" required />
+	  <label for="color-data">Odberi boja: </label>
+	  <input type="color" id="color-data" />
+	  <label for="list-data">Zvanje: </label>
+	  <input type="text" list="zvanja" />
+	  <datalist id="zvanja">
+	     <option label="Gospodin" value="Gospodin"></option>
+		 <option label="Gospogja" value="Gospogja"></option>
+		 <option label="Gospogica" value="Gospogica"></option>
+	  </datalist>
+   </body>
+</html>   
